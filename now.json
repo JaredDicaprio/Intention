@@ -1,0 +1,25 @@
+{
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept",
+        "Access-Control-Allow-Credentials": "true"
+      },
+      "continue": true
+    },
+    {
+      "src": "/api/(.*)",
+      "methods": ["OPTIONS"],
+      "dest": "/api/cors"
+    }
+  ],
+  "version": 2,
+  "env": {
+    "MONGO_SRV": "mongodb+srv://Paul:Mau5trap@cluster0-selxu.mongodb.net/test",
+    "JWT_SECRET": "hjdfhuiklnlkbfcagdahsakjsdjdqw",
+    "CLOUDINARY_URL": "https://api.cloudinary.com/v1_1/pauseprogramming",
+    "STRIPE_SECRET_KEY": "sk_test_DRMGWbRKRbxz0X5UhEWrW6SC000lWlMv4r"
+  }
+}
