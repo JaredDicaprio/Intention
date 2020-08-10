@@ -5,7 +5,6 @@
 This is a FullStack MERN Application, utilizing Mongo Atlass DB. The goal was to create a an online shop for Grounded HLC. As per clients request it must be: designed with mobile users in mind, and have fully functional payment processing. I chose to use Stripe for the payments. Much of the application is cloud-based technologies. Backend is hosted on MongoDB, and most images are hosted on Cloudinary, the frontend and serverless functions are all hosted on Vercel. This application was a huge undertaking for me, and I && the client are overall very happy with how the project came out. 
 
 live version: https://www.groundedhlc.com
-Want a copy?
 
 
 ## Quick Start
